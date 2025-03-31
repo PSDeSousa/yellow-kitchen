@@ -1,0 +1,213 @@
+
+/**
+**************** Initialisation **************************
+**/
+*
+{
+    margin :0;
+    padding :0;
+    box-sizing : border-box;
+    }
+/**
+**************** Police **************************
+**/
+/********** Poppins **********/
+/** Poppins light **/
+@font-face{
+    font-family:'Poppins Light';
+    src:url('../fonts/Poppins-Light.ttf')
+}
+/********** Martel Sans **********/
+/** Martel Sans Regular **/
+@font-face{
+    font-family:'Martel Sans Regular';
+    src:url('../fonts/MartelSans-Regular.ttf')
+}
+/** Martel Sans Bold **/
+@font-face{
+    font-family:'Martel Sans Bold';
+    src:url('../fonts/MartelSans-Bold.ttf')
+}
+/**
+**************** Balises **************************
+**/
+body
+{
+    background-color:#FFFFFF;
+    color:#3F4255;
+    font-family:'Martel Sans Regular', sans-serif;
+}
+h1
+{
+    font-family:'Poppins Light', sans-serif;
+    font-size:3.6rem;
+    font-weight: normal;
+}
+h2
+{
+    font-family:'Poppins Light', sans-serif;
+    font-size:2.2rem;
+    font-weight: normal;
+    display:block;
+}
+h3
+{
+    font-family:'Martel Sans Bold', sans-serif;
+    font-size:1rem;
+}
+p
+{
+    font-family:'Martel Sans Regular', sans-serif;
+    font-size:0.75rem;
+}
+/**
+**************** Classes **************************
+**/
+.container-flex
+{
+    width:87%;
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+.container
+{
+    width:87%;
+    margin:auto;
+}
+.colum .row
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.row-cta
+{
+    margin:5rem 0;
+    display:flex;
+}
+.cta
+{
+    width:7.5rem;
+    height:4.5rem;
+    border: radius 0rem;
+    border:1px solid #FFE145;
+    text-align:center;
+    line-height: 1.4;
+    padding:0.5rem;
+}
+.cta{}
+/********** Balises et classes .cta **********/
+.cta, h1, h2, .cell
+{
+    margin:0.75REM;
+}
+.cta a
+{
+    color:#3F4255;
+    text-decoration: none;
+}
+.carousel
+{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.cell
+{
+}
+.card
+{
+    width:15rem;
+    height:15rem
+}
+.card img
+{
+    width:100%
+}
+/********** Balises et classes .card **********/
+.foot
+{
+    text-align:center;
+    border-top:1px solid #D9D9D9;
+    padding:1.5rem 6rem;
+
+}
+/********** Balises et classes .cart **********/
+.cart a
+{
+    display:flex;
+    align-items:center;
+}
+/********** Balises et classes header **********/
+header ul
+{
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    margin:0
+}
+header li
+{
+    margin:0 1.5rem;
+    list-style:none;
+}
+header p
+{
+    color:#9093A6;
+    font-size:1.2rem;
+}
+
+header .column
+{
+    width:32%;
+}
+header .container
+{
+    width:100%;
+    border-bottom:1px solid #D9D9D9;
+    padding:1.5rem 0;
+}
+header .column:nth-child(2)
+{
+    width:35%
+}
+header a
+{
+    text-decoration: none;
+}
+header a img, .cart a img, .cart a p
+{
+    vertical-align:top;
+}
+nav img
+{
+    height:1.5rem;
+}
+/********** Balises et classes main **********/
+main .column
+{
+    width:49%;
+    position:relative;
+}
+main .row , .row-cta
+{
+    margin:2.5rem 0;
+}
+main .row .column
+{
+    width:25%;
+}
+main .column img
+{
+    width:100%;
+}
+.front
+{
+    width:30%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:10;
+    transform:translatex(-50%)
+}
